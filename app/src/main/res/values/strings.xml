@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KidApp</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_up_message">Create your account for free <b> now </b> and spy on your kid <b>today</b>!</string>
+    <string name="nameSignup">Name</string>
+    <string name="emailSignup">Email</string>
+    <string name="passwordSignup">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">"Already have an account ? "</string>
+    <string name="login">Log in</string>
+    <string name="error_email">Invalid Email</string>
+    <string name="error_password">Password must be at least 8 characters long, and contain one uppercase letter, one lowercase and one number</string>
+    <string name="error_name">Name cannot be empty</string>
+    <string name="error_signup">User cannot be created at this time, please try again later</string>
+    <string name="welcomeBack">Welcome back!</string>
+    <string name="log_in_message">Please <b>login</b> below and resume your spying activities!</string>
+    <string name="login_failed">Login Failed, please check your email and password</string>
+    <string name="empty_password">Password cannot be empty</string>
+    <string name="settings">Settings</string>
+    <string name="find">Find</string>
+    <string name="account">Account</string>
+    <string name="alert">Alert</string>
+    <string name="camera">Camera</string>
+    <string name="data">Data</string>
+    <string name="welcome_user">"Welcome "</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete account</string>
+    <string name="change_password">Change password</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="addDevice">Add new device</string>
+    <string name="add_this_device_as_new_device">Add this device as new device</string>
+</resources>
