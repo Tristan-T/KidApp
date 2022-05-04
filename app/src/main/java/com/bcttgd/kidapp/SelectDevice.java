@@ -104,6 +104,12 @@ public class SelectDevice extends AppCompatActivity {
                 editor.putString("device_id", selectedDeviceId);
                 editor.apply();
 
+                //Also save the device name
+                SharedPreferences sharedPref2 = getSharedPreferences("device_name", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor2 = sharedPref2.edit();
+                editor2.putString("device_name", selectedDevice);
+                editor2.apply();
+
 
                 //Go to the main activity
                 Intent intent = new Intent(SelectDevice.this, MainActivity.class);

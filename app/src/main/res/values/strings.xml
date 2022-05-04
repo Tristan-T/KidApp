@@ -30,4 +30,5 @@
     <string name="No">No</string>
     <string name="addDevice">Add new device</string>
     <string name="add_this_device_as_new_device">Add this device as new device</string>
+    <string name="application_is_working_properly">Application is working properly</string>
 </resources>
