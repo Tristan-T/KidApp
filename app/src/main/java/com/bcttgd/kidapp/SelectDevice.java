@@ -110,7 +110,6 @@ public class SelectDevice extends AppCompatActivity {
                 editor2.putString("device_name", selectedDevice);
                 editor2.apply();
 
-
                 //Go to the main activity
                 Intent intent = new Intent(SelectDevice.this, MainActivity.class);
                 startActivity(intent);
@@ -141,6 +140,7 @@ public class SelectDevice extends AppCompatActivity {
             return true;
         });
     }
+
     public void createDevice(View view) {
         //Generate unique ID for the device
         long deviceID = System.currentTimeMillis();
